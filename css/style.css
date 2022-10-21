@@ -1,0 +1,22 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    list-style: none;
+}
+
+@font-face {
+  font-family: 'JetBrains';
+  src: url("../font/JetBrains_Mono/static/JetBrainsMono-Regular.ttf");
+}
+.navbar{
+  padding: 30px;
+  
+}
+ul li{
+  color: #e4e4e4;
+}
+.navlinks{
+  overflow: hidden !important;
+}
