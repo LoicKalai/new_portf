@@ -1,22 +1,25 @@
-html,
-body{
+*{
     margin: 0;
     padding: 0;
     background-color: #0f0f0f;
-    list-style: none;
+
+}
+body,html{
+  height: 98.9%;
+  width: 100vw;
+  
 }
 
 @font-face {
   font-family: 'JetBrains';
   src: url("../font/JetBrains_Mono/static/JetBrainsMono-Regular.ttf");
 }
-.navbar{
-  padding: 30px;
+
+.close{
+  animation-duration: 400ms;
+}
+
+.sidebar{
   
 }
-ul li{
-  color: #e4e4e4;
-}
-.navlinks{
-  overflow: hidden !important;
-}
+
