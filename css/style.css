@@ -19,7 +19,7 @@ body,html{
   animation-duration: 400ms;
 }
 
-.sidebar{
-  
+.sidebar.ouvert{
+  right: 0vw;
 }
 
