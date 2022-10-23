@@ -22,4 +22,17 @@ body,html{
 .sidebar.ouvert{
   right: 0vw;
 }
+.cross{
+  width: 19px;
+  height: 19px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .sidebar.ouvert{
+    right: -10vw;
+  }
+}
+  
+
 
