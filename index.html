@@ -10,6 +10,10 @@
     <script src="https://kit.fontawesome.com/727ed6276e.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <link rel="icon" type="image/png" sizes="16x16"  href="./favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
     <title>Portfolio Loïc Kalaidjoglou</title>
 
 
@@ -21,8 +25,9 @@
 
     <!--Nav Burger-->
     <div class="sidebar fixed bg-[#0f0f0f] lg:bg-[#e4e4e4] w-[100vw] transition-[right] duration-[1000ms] lg:w-[98.5vw] lg:h-[60px] xl:h-[60px] xl:w-[99vw] 2xl:h-[65px] 2xl:w-[99.4vw] h-[100vh] right-[-100vw] top-[0px] lg:top-[15px] lg:shadow-[-2px_1px_2px_0px_#e4e4e4]" id="sidebar">
+
         
-        <!--Btn Burger-->
+        
         <div class="btnburger flex justify-center items-center lg:bg-transparent cursor-pointer w-[24px] h-[24px] lg:w-[35px] lg:h-[25px] space-y-1.5 lg:space-y-2 cursor-pointer fixed right-[10px] top-[25px] lg:mr-[20px] z-10" id="btnburger">
             <img src="./images/icon_burger.png" alt="icon burger menu" class="lg:w-[35px] lg:h-[35px] bg-transparent">
         </div>
@@ -42,18 +47,18 @@
     </div>
     <!-- /Nav Burger-->
 
-    <section class="home w-full h-full flex justify-center flex-col">
+    <section class="home flex flex-col">
 
-        <div class="contain-home w-full h-full font-[Inter] text-[#e4e4e4] mt-[250px]">
-            <div class="place-contain-home absolute left-[250px]">
-                <p class="mb-[40px]">Bonjour,</p>
-                <div class="contain-text-name leading-[3.5rem] lg:leading-[5.5rem] lg:text-[80px]">
+        <div class="contain-home w-full h-full font-[Inter] text-[#e4e4e4] lg:mt-[250px]">
+            <div class="place-contain-home absolute lg:left-[250px] top-[200px] left-[60px] md:left-[110px]">
+            <p class="mb-[40px] text-[12px] md:text-[16px]">Bonjour,</p>
+                <div class="contain-text-name leading-[3.5rem] lg:leading-[5.5rem] text-[40px] md:text-[60px] lg:text-[80px] font-bold">
                     <h1 class="bienvenue"><span class="typer" id="some-id" data-delay="200" data-delim=":"
                         data-words="Loïc Kalaidjoglou: Développeur web"
                         data-colors="#e4e4e4"></span><span class="cursor text-[#e4e4e4]" data-cursorDisplay="|" data-owner="some-id"></span>
                     </h1>
                 </div>
-                <p class="mt-[40px]">Création de site et supports web</p>
+            <p class="mt-[40px] text-[12px] md:text-[16px]">Création de site et supports web</p>
             </div>
         </div>
 
@@ -65,10 +70,13 @@
         <button class="w-[65px] h-[65px] rounded-full bg-[#232323] mt-[10px] lg:w-[75px] lg:h-[75px]"><i class="fa-solid fa-paper-plane text-[30px] text-[#e4e4e4] text-center w-full h-full flex items-center justify-center bg-transparent"></i></button>
     </div> 
 
+    <section class="presentation bg-[blue]">
+        
+    </section>
 
 <script src="./js/burger.js"></script>
-<script src="./js/toggle.js"></script>
 <script src="./js/anime-title.js"></script>
+<script src="./js/anime-bg.js"></script>
 
 </body>
 </html>
