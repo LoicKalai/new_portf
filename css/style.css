@@ -5,7 +5,7 @@
 
 }
 body,html{
-  height: 98.9%;
+  height: 100%;
   width: 100vw;
   
 }
@@ -13,6 +13,10 @@ body,html{
 @font-face {
   font-family: 'JetBrains';
   src: url("../font/JetBrains_Mono/static/JetBrainsMono-Regular.ttf");
+}
+@font-face {
+  font-family: 'Inter';
+  src: url("../font/Inter/static/Inter-Regular.ttf");
 }
 
 .close{
@@ -28,6 +32,19 @@ body,html{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE*/
 @media screen and (min-width: 1024px) {
   .sidebar.ouvert{
     right: -10vw;
