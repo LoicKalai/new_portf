@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #0f0f0f;
-
+    
 }
 body,html{
   height: 100%;
@@ -29,8 +28,16 @@ body,html{
   right: 0vw;
 }
 .cross{
-  width: 19px;
-  height: 19px;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 11px;
+
+}
+.cross2{
+  width: 20px;
+  height: 20px;
+  position: absolute;
 }
 
 
@@ -59,6 +66,9 @@ canvas{
 @media screen and (min-width: 1024px) {
   .sidebar.ouvert{
     right: -10vw;
+  }
+  .cross2{
+    display: none;
   }
 }
   
