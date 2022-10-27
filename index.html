@@ -10,9 +10,16 @@
     <script src="https://kit.fontawesome.com/727ed6276e.js" crossorigin="anonymous"></script>
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!--Favicons-->
     <link rel="icon" type="image/png" sizes="16x16"  href="./favicons/favicon-16x16.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
+
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 
     <title>Portfolio Loïc Kalaidjoglou</title>
 
@@ -47,22 +54,26 @@
     </div>
     <!-- /Nav Burger-->
 
+    <!-- Section Home-->
     <section class="home flex flex-col">
+    
+        <!-- particles.js container --> 
+        <div id="particles-js"></div>
 
         <div class="contain-home w-full h-full font-[Inter] text-[#e4e4e4] lg:mt-[250px]">
-            <div class="place-contain-home absolute lg:left-[250px] top-[200px] left-[60px] md:left-[110px]">
-            <p class="mb-[40px] text-[12px] md:text-[16px]">Bonjour,</p>
+            <div class="place-contain-home absolute lg:left-[250px] top-[200px] left-[60px] md:left-[110px] bg-transparent">
+            <p class="mb-[40px] text-[12px] md:text-[16px] bg-transparent">Bonjour,</p>
                 <div class="contain-text-name leading-[3.5rem] lg:leading-[5.5rem] text-[40px] md:text-[60px] lg:text-[80px] font-bold">
                     <h1 class="bienvenue"><span class="typer" id="some-id" data-delay="200" data-delim=":"
                         data-words="Loïc Kalaidjoglou: Développeur web"
                         data-colors="#e4e4e4"></span><span class="cursor text-[#e4e4e4]" data-cursorDisplay="|" data-owner="some-id"></span>
                     </h1>
                 </div>
-            <p class="mt-[40px] text-[12px] md:text-[16px]">Création de site et supports web</p>
+            <p class="mt-[40px] text-[12px] md:text-[16px] bg-transparent">Création de site et supports web</p>
             </div>
         </div>
-
     </section>
+    <!-- /Section Home-->
 
     <div class="contain-btn fixed right-[10px] bottom-[10px] bg-transparent h-[200px] w-[80px] flex flex-col items-center hidden lg:block mr-[15px]">
 
@@ -70,9 +81,6 @@
         <button class="w-[65px] h-[65px] rounded-full bg-[#232323] mt-[10px] lg:w-[75px] lg:h-[75px]"><i class="fa-solid fa-paper-plane text-[30px] text-[#e4e4e4] text-center w-full h-full flex items-center justify-center bg-transparent"></i></button>
     </div> 
 
-    <section class="presentation bg-[blue]">
-        
-    </section>
 
 <script src="./js/burger.js"></script>
 <script src="./js/anime-title.js"></script>
