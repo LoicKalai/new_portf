@@ -27,7 +27,7 @@
 </head>
 <body class="">
 
-     <img src="./images/logo-light-removebg.png" alt="logo LK Light" class="absolute w-[30px] mt-[20px] ml-[25px] lg:w-[30px] xl:w-[40px] 2xl:w-[45px] z-10 bg-transparent">  
+     <img src="./images/logo-light-removebg.png" alt="logo LK Light" class="fixed w-[30px] mt-[20px] ml-[25px] lg:w-[30px] xl:w-[40px] 2xl:w-[45px] z-10 bg-transparent">  
 
 
     <!--Nav Burger-->
@@ -55,21 +55,22 @@
     <!-- /Nav Burger-->
 
     <!-- Section Home-->
-    <section class="home flex flex-col">
+    <section class="home flex flex-col w-full h-full bg-[#0f0f0f]">
     
         <!-- particles.js container --> 
         <div id="particles-js" class="z-[1]"></div>
 
         <div class="contain-home w-full h-full font-[Inter] text-[#e4e4e4] lg:mt-[250px] z-[9]">
             <div class="place-contain-home absolute lg:left-[250px] top-[200px] left-[60px] md:left-[110px] bg-transparent">
-            <p class="mb-[40px] text-[12px] md:text-[16px] bg-transparent">Bonjour,</p>
-                <div class="contain-text-name leading-[3.5rem] lg:leading-[5.5rem] text-[40px] md:text-[60px] lg:text-[80px] font-bold ">
-                    <h1 class="bienvenue"><span class="typer" id="some-id" data-delay="200" data-delim=":"
-                        data-words="Loïc Kalaidjoglou: Développeur web"
-                        data-colors="#e4e4e4"></span><span class="cursor text-[#e4e4e4]" data-cursorDisplay="|" data-owner="some-id"></span>
-                    </h1>
-                </div>
-            <p class="mt-[40px] text-[12px] md:text-[16px] bg-transparent">Création de site et supports web</p>
+                <p class="mb-[40px] text-[12px] md:text-[16px] bg-transparent">Bonjour,</p>
+                    <div class="contain-text-name leading-[3.5rem] lg:leading-[5.5rem] text-[40px] md:text-[60px] lg:text-[80px] font-bold ">
+                        <h1 class="bienvenue"><span class="typer" id="some-id" data-delay="200" data-delim=":"
+                            data-words="Loïc Kalaidjoglou: Développeur web"
+                            data-colors="#e4e4e4"></span><span class="cursor text-[#e4e4e4]" data-cursorDisplay="|" data-owner="some-id"></span>
+                        </h1>
+                    </div>
+                    
+                <p class="mt-[40px] text-[12px] md:text-[16px] bg-transparent">Création de site et supports web</p>
             </div>
         </div>
     </section>
@@ -82,8 +83,9 @@
     </div> 
 
     <!-- Section Présentation-->
-    <section>
-        
+    <section class="présention w-full h-full bg-[#0f0f0f]">
+    <h2 class="title_transparent text-[92px] uppercase font-[InterBold] absolute w-full text-center mt-[150px] text-[#e4e4e4] opacity-[.03]">à propos de moi</h2>
+    <h3 class="uppercase font-[Inter] text-[#e4e4e4]">présentation</h3>
     </section>
 
 <script src="./js/burger.js"></script>
