@@ -27,11 +27,11 @@
 </head>
 <body class="">
 
-     <img src="./images/logo-light-removebg.png" alt="logo LK Light" class="fixed w-[30px] mt-[20px] ml-[25px] lg:w-[30px] xl:w-[40px] 2xl:w-[45px] z-10 bg-transparent">  
+     <a href="#home" id="home"><img src="./images/logo-light-removebg.png" alt="logo LK Light" class="fixed w-[30px] mt-[20px] ml-[25px] lg:w-[30px] xl:w-[40px] 2xl:w-[45px] z-30 bg-transparent"></a>
 
 
     <!--Nav Burger-->
-    <div class="sidebar fixed bg-[#0f0f0f] lg:bg-[#e4e4e4] w-[100vw] transition-[right] duration-[1000ms] lg:w-[98.5vw] lg:h-[60px] xl:h-[60px] xl:w-[99vw] 2xl:h-[65px] 2xl:w-[99.4vw] h-[100vh] right-[-100vw] top-[0px] lg:top-[15px] lg:shadow-[-2px_1px_2px_0px_#e4e4e4] z-10" id="sidebar">
+    <div class="sidebar fixed bg-[#0f0f0f] lg:bg-[#e4e4e4] w-[100vw] transition-[right] duration-[1000ms] lg:w-[98.5vw] lg:h-[60px] xl:h-[60px] xl:w-[99vw] 2xl:h-[65px] 2xl:w-[99.4vw] h-[100vh] right-[-100vw] top-[0px] lg:top-[15px] lg:shadow-[-2px_1px_2px_0px_#e4e4e4] z-20" id="sidebar">
 
         
         
@@ -41,8 +41,8 @@
         
 
         <ul class="font-[JetBrains] text-[#e4e4e4] lg:text-[#0f0f0f] bg-transparent flex flex-col w-full h-full justify-center items-center lg:flex-row lg:justify-center">
-            <a href="" class="bg-transparent"><li class="mb-[30px] lg:mr-[60px] lg:mb-0 bg-transparent lg:hover:underline lg:decoration-[#575757] lg:font-bold">Accueil</li></a>
-            <a href="" class="bg-transparent"><li class="mb-[30px] lg:mr-[60px] lg:mb-0 bg-transparent lg:hover:underline lg:decoration-[#575757] lg:font-bold">Présentation</li></a>
+            <a href="#home" class="bg-transparent"><li class="mb-[30px] lg:mr-[60px] lg:mb-0 bg-transparent lg:hover:underline lg:decoration-[#575757] lg:font-bold">Accueil</li></a>
+            <a href="#presentation" class="bg-transparent"><li class="mb-[30px] lg:mr-[60px] lg:mb-0 bg-transparent lg:hover:underline lg:decoration-[#575757] lg:font-bold">Présentation</li></a>
             <a href="" class="bg-transparent"><li class="mb-[30px] lg:mr-[60px] lg:mb-0 bg-transparent lg:hover:underline lg:decoration-[#575757] lg:font-bold">Compétences</li></a>
             <a href="" class="bg-transparent"><li class="mb-[30px] lg:mr-[60px] lg:mb-0 bg-transparent lg:hover:underline lg:decoration-[#575757] lg:font-bold">Projets</li></a>
             <a href="" class="bg-transparent"><li class="mb-[30px] lg:mr-[60px] lg:mb-0 bg-transparent lg:hover:underline lg:decoration-[#575757] lg:font-bold">Contact</li></a>
@@ -55,12 +55,12 @@
     <!-- /Nav Burger-->
 
     <!-- Section Home-->
-    <section class="home flex flex-col w-full h-full bg-[#0f0f0f]">
+    <section class="home flex flex-col w-full h-full bg-[#0f0f0f]" id="home">
     
         <!-- particles.js container --> 
         <div id="particles-js" class="z-[1]"></div>
 
-        <div class="contain-home w-full h-full font-[Inter] text-[#e4e4e4] lg:mt-[250px] z-[9]">
+        <div class="contain-home w-full h-full font-[Inter] text-[#e4e4e4] lg:mt-[780px] z-[9]">
             <div class="place-contain-home absolute lg:left-[250px] top-[200px] left-[60px] md:left-[110px] bg-transparent">
                 <p class="mb-[40px] text-[12px] md:text-[16px] bg-transparent">Bonjour,</p>
                     <div class="contain-text-name leading-[3.5rem] lg:leading-[5.5rem] text-[40px] md:text-[60px] lg:text-[80px] font-bold ">
@@ -76,16 +76,31 @@
     </section>
     <!-- /Section Home-->
 
-    <div class="contain-btn fixed right-[10px] bottom-[10px] h-[200px] w-[80px] flex flex-col items-center lg:block mr-[15px] z-10">
-
-        <button class="w-[65px] h-[65px] rounded-full bg-[#232323] mt-[10px] lg:w-[75px] lg:h-[75px]"><i class="fa-solid fa-circle-half-stroke text-[30px] text-[#e4e4e4] text-center w-full h-full flex items-center justify-center"></i></button>
-        <button class="w-[65px] h-[65px] rounded-full bg-[#232323] mt-[10px] lg:w-[75px] lg:h-[75px]"><i class="fa-solid fa-paper-plane text-[30px] text-[#e4e4e4] text-center w-full h-full flex items-center justify-center"></i></button>
+    <!-- Button Fixed-->
+    <div class="contain-btn fixed w-full flex justify-center lg:right-[10px] block bottom-[30px] lg:bottom-[10px] lg:h-[200px] lg:w-[80px] lg:flex lg:flex-col lg:items-center lg:block z-10">
+        <button class="w-[45px] h-[45px] rounded-full bg-[#232323] mt-[10px] mr-[10px] lg:mr-[0px] lg:w-[75px] lg:h-[75px]"><i class="fa-solid fa-circle-half-stroke text-[20px] lg:text-[30px] text-[#e4e4e4] text-center w-full h-full flex items-center justify-center"></i></button>
+        <button class="w-[45px] h-[45px] rounded-full bg-[#232323] mt-[10px] lg:w-[75px] lg:h-[75px]"><i class="fa-solid fa-paper-plane text-[20px] lg:text-[30px] text-[#e4e4e4] text-center w-full h-full flex items-center justify-center"></i></button>
     </div> 
+    <!-- /Button Fixed-->
 
     <!-- Section Présentation-->
-    <section class="présention w-full h-full bg-[#0f0f0f]">
-    <h2 class="title_transparent text-[92px] uppercase font-[InterBold] absolute w-full text-center mt-[150px] text-[#e4e4e4] opacity-[.03]">à propos de moi</h2>
-    <h3 class="uppercase font-[Inter] text-[#e4e4e4]">présentation</h3>
+    <section class="présention w-full h-full bg-[#0f0f0f] flex flex-col" id="presentation">
+        <h2 class="title_transparent absolute text-[30px] md:text-[60px] lg:text-[92px] uppercase font-[InterBold] w-full text-center mt-[130px] lg:mt-[100px] text-[#e4e4e4] opacity-[.018]">à propos de moi</h2>
+
+        <h3 class="title_presentation absolute uppercase w-screen text-center font-[Inter] text-[#e4e4e4] md:text-[20px] md:mt-[180px] lg:text-[40px] mt-[155px] ">présentation</h3>
+
+        <!--Placer le soulignement-->
+        <div class="place_underline absolute w-full flex justify-center bottom-[-190px] md:bottom-[-220px] lg:bottom-[-250px]">
+            <div class="underline-h3 w-[60px] lg:w-[80px] z-30 border-b-[2px] lg:border-b-[3px] border-b-[#e4e4e4]"></div>
+        </div>
+
+        <div class="contain-presentation absolute w-full flex justify-center bottom-[-500px]">
+            <div class="place-presentation w-[80%] md:w-[87%] xl:w-[55%] h-full font-[JetBrains] text-[12px] md:text-[16px] text-[#e4e4e4] flex flex-col justify-center">
+                <p class="mb-[15px] md:mb-[30px]">Je développe des sites et des outils pour le web depuis plus d'un an.</p>
+                <p class="mb-[15px] md:mb-[30px]">La réalisation de mes projets se font de A à Z, de la maquette à la finalité.</p>
+                <p>Pour toutes éventuelles questions ou informations, <a href="" class="underline">contactez-moi</a>.</p>
+            </div>
+        </div> 
     </section>
 
 <script src="./js/burger.js"></script>
