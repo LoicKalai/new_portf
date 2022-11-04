@@ -31,7 +31,7 @@
 
 
     <!--Nav Burger-->
-    <div class="sidebar fixed bg-[#0f0f0f] lg:bg-[#e4e4e4] w-[100vw] transition-[right] duration-[1000ms] lg:w-[98.5vw] lg:h-[60px] xl:h-[60px] xl:w-[99vw] 2xl:h-[65px] 2xl:w-[99.4vw] h-[100vh] right-[-100vw] top-[0px] lg:top-[15px] lg:shadow-[-2px_1px_2px_0px_#e4e4e4] z-20" id="sidebar">
+    <div class="sidebar fixed bg-[#0f0f0f] lg:bg-[#e4e4e4] w-[100vw] transition-[right] duration-[1000ms] lg:w-[98.5vw] lg:h-[60px] xl:h-[60px] xl:w-[99vw] 2xl:h-[65px] 2xl:w-[99.4vw] h-[100vh] right-[-100vw] top-[0px] lg:top-[15px] lg:shadow-[-2px_1px_2px_0px_#e4e4e4] z-50" id="sidebar">
 
         
         
@@ -55,7 +55,7 @@
     <!-- /Nav Burger-->
 
     <!-- Button Fixed-->
-    <div class="contain-btn fixed w-full flex justify-center lg:right-[30px] block bottom-[30px] lg:bottom-[140px] lg:h-[200px] lg:w-[80px] lg:flex lg:flex-col lg:items-center lg:block z-10">
+    <div class="contain-btn fixed w-full flex justify-center lg:right-[30px] block bottom-[30px] lg:bottom-[140px] lg:h-[200px] lg:w-[80px] lg:flex lg:flex-col lg:items-center lg:block z-40">
         <button class="w-[45px] h-[45px] rounded-full bg-[#232323] mt-[10px] mr-[10px] lg:mr-[0px] lg:w-[75px] lg:h-[75px]"><i class="fa-solid fa-circle-half-stroke text-[20px] lg:text-[30px] text-[#e4e4e4] text-center w-full h-full flex items-center justify-center"></i></button>
         <button class="w-[45px] h-[45px] rounded-full bg-[#232323] mt-[10px] lg:w-[75px] lg:h-[75px]"><i class="fa-solid fa-paper-plane text-[20px] lg:text-[30px] text-[#e4e4e4] text-center w-full h-full flex items-center justify-center"></i></button>
     </div> 
@@ -120,11 +120,29 @@
         </div>
 
         <!--Container projects-->
-        <div class="container-projects absolute bg-[blue] w-full h-[50%] top-[1625px] lg:h-[50%] lg:top-[1680px]">
-            <ul>
-                <li></li><!--Card 1-->
-                <li></li><!--Card 2-->
-                <li></li><!--Card 3-->
+        <div class="container-projects absolute w-full h-[58%] top-[1600px] lg:h-[50%] lg:top-[1680px]">
+            <div class="pres-projects w-full flex justify-center">
+                <p class="text-[#e4e4e4] font-[JetBrains] text-[12px] w-[80%] leading-[1.5rem] mb-[60px]">Les projets présentés ont été réalisés durant ma formation, je travail actuellement sur de toutes nouvelles choses ainsi que de nouvelles technologies pour élargir mes compétences.</p>
+            </div>
+            <ul class="flex w-full justify-center">
+                <!--Card 1-->
+                <li class="card-projects absolute w-[110px] h-[40%] bg-[yellow] left-[8%] z-20 rounded-[10px]">
+                    <div class="box-img absolute w-full flex justify-center top-[-10px]">
+                        <img src="./images/icon_resto.png" alt="icon food project" class="w-[30px]">
+                    </div>
+
+                    <a href="https://loick.promo-106.codeur.online/projet_restaurant/" target="_blank"><h3 class="text-[12px] w-full text-center font-[JetBrains] mt-[20px] font-bold underline cursor-pointer">Projet Restaurant</h3></a>
+                    <div class="box-text w-[90%] flex justify-center ml-[5px]">
+                        <p class="text-[10px]">Projet réalisé en groupe de 3 pour thème principale les restaurants du monde. Gestion de base de données</p>
+                        
+                    </div>
+                </li>
+
+                <!--Card 2-->
+                <li class="card-projects absolute w-[110px] h-[40%] bg-[red] z-10 rounded-[10px]"></li>
+
+                <!--Card 3 -->
+                <li class="card-projects absolute w-[110px] h-[40%] bg-[purple] right-[8%] z-0 rounded-[10px]"></li>
             </ul>
         </div>
         <!-- /Containers projects-->
