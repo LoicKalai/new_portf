@@ -14,6 +14,12 @@ body{
   overflow-x: hidden;
 }
 
+.card-projects{
+  transform: matrix(1, 0.12, -0.08, 0.99, 0, 0);
+
+}
+
+
 
 
 @font-face {
@@ -83,6 +89,42 @@ canvas{
     display: none;
   }
 }
+
+
+@media screen and (min-width: 1024px) {
+  .card-projects{
+    transition: transform .1s;
+  }
+
+  .card-projects:hover{
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+  }  
+}
+
+@media all and (min-width: 320px) and (max-width: 768px){
+
+  .card-projects{
+    transition: transform .1s;
+  }
+
+  .card-projects:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2);
+  }
+  .card-projects:nth-child(2):hover{
+    z-index: 20;
+  }
+  .card-projects:nth-child(3):hover{
+    z-index: 20;
+  }
+}
+
+
+
+
   
 
 
