@@ -12,8 +12,8 @@
 
     <!--Favicons-->
     <link rel="icon" type="image/png" sizes="16x16"  href="./favicons/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileColor" content="#0f0f0f">
+    <meta name="theme-color" content="#0f0f0f">
 
     <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -31,15 +31,11 @@
 
 
     <!--Nav Burger-->
-    <div class="sidebar fixed bg-[#0f0f0f] lg:bg-[#e4e4e4] w-[100vw] transition-[right] duration-[1000ms] lg:w-[98.5vw] lg:h-[60px] xl:h-[60px] xl:w-[99vw] 2xl:h-[65px] 2xl:w-[99.4vw] h-[100vh] right-[-100vw] top-[0px] lg:top-[15px] lg:shadow-[-2px_1px_2px_0px_#e4e4e4] z-50" id="sidebar">
-
-        
-        
+    <div class="sidebar fixed bg-[#0f0f0f] lg:bg-[#e4e4e4] w-[100vw] transition-[right] duration-[1000ms] lg:w-[98.5vw] lg:h-[60px] xl:h-[60px] xl:w-[99vw] 2xl:h-[65px] 2xl:w-[99.4vw] h-[100vh] right-[-100vw] top-[0px] lg:top-[15px] lg:shadow-[-2px_1px_2px_0px_#e4e4e4] z-50" id="sidebar">     
         <div class="btnburger flex justify-center items-center lg:bg-transparent cursor-pointer w-[24px] h-[24px] lg:w-[35px] lg:h-[25px] space-y-1.5 lg:space-y-2 cursor-pointer fixed right-[10px] top-[25px] lg:mr-[20px] z-10" id="btnburger">
             <img src="./images/icon_burger.png" alt="icon burger menu" class="lg:w-[25px] lg:h-[25px] bg-transparent">
         </div>
-        
-
+    
         <ul class="font-[JetBrains] text-[#e4e4e4] lg:text-[#0f0f0f] bg-transparent flex flex-col w-full h-full justify-center items-center lg:flex-row lg:justify-center">
             <a href="#home" class="bg-transparent"><li class="mb-[30px] lg:mr-[60px] lg:mb-0 bg-transparent lg:hover:underline lg:decoration-[#575757] lg:font-bold">Accueil</li></a>
             <a href="#presentation" class="bg-transparent"><li class="mb-[30px] lg:mr-[60px] lg:mb-0 bg-transparent lg:hover:underline lg:decoration-[#575757] lg:font-bold">Présentation</li></a>
@@ -51,6 +47,12 @@
             <a href="https://github.com/LoicKalai" target="_blank"><img src="./images/icon_github.png" alt="icon network Github" class="w-[25px] h-[25px]"></a>
             <a href="https://www.linkedin.com/in/lo%C3%AFc-kalai/" target="_blank"><img src="./images/icon_linkedin.png" alt="icon network Linkedin" class="w-[25px] h-[25px] ml-[10px]"></a>
         </div>
+
+        <div class="icon_network_desk absolute top-[20px] left-[280px] hidden lg:block">
+            <a href="https://github.com/LoicKalai" target="_blank"><i class="fa-brands fa-square-github text-[25px] mr-[10px] text-[#0f0f0f] hover:text-[#957CDB]"></i></a>
+            <a href="https://www.linkedin.com/in/lo%C3%AFc-kalai/" target="_blank"><i class="fa-brands fa-linkedin text-[25px] text-[#0f0f0f] hover:text-[#0A66C2]"></i></a>
+        </div>
+
     </div>
     <!-- /Nav Burger-->
 
@@ -115,49 +117,59 @@
         <h3 class="title_presentation absolute uppercase w-screen text-center font-[Inter] text-[#e4e4e4] md:text-[20px] md:mt-[180px] lg:text-[40px] mt-[155px] ">projets</h3>
 
         <!--Placer le soulignement-->
-        <div class="place_underline absolute w-full flex justify-center bottom-[-882px] md:bottom-[-912px] lg:bottom-[-945px] lg:ml-[2px] z-10">
+        <div class="place_underline absolute w-full flex justify-center bottom-[-882px] md:bottom-[-912px] lg:bottom-[-1030px] lg:ml-[2px] z-10">
             <div class="underline-h3 w-[60px] lg:w-[80px] z-30 border-b-[2px] lg:border-b-[3px] border-b-[#e4e4e4]"></div>
         </div>
 
         <!--Container projects-->
-        <div class="container-projects absolute w-full h-[58%] top-[1600px] lg:h-[50%] lg:top-[1680px]">
-            <div class="pres-projects w-full flex justify-center">
-                <p class="text-[#e4e4e4] font-[JetBrains] text-[12px] w-[80%] leading-[1.5rem] mb-[60px]">Les projets présentés ont été réalisés durant ma formation, je travail actuellement sur de toutes nouvelles choses ainsi que de nouvelles technologies pour élargir mes compétences.</p>
+        <div class="container-projects absolute w-full h-[58%] top-[1600px] lg:h-[50%] lg:flex lg:mt-[300px]">
+            <div class="pres-projects w-full flex justify-center lg:items-center">
+                <p class="text-[#e4e4e4] font-[JetBrains] text-[12px] w-[80%] leading-[1.5rem] mb-[60px] md:mb-[80px] md:mt-[30px] lg:mb-0 lg:text-[20px] lg:leading-[2em] lg:m-0">Les projets présentés ont été réalisés durant ma formation, je travail actuellement sur de toutes nouvelles choses ainsi que de nouvelles technologies pour élargir mes compétences.</p>
             </div>
-            <ul class="flex w-full justify-center">
-                <!--Card 1-->
-                <li class="card-projects absolute w-[110px] h-[40%] bg-[#e4e4e4] left-[8%] z-20 rounded-[10px]">
-                    <div class="box-img absolute w-full flex justify-center top-[-10px]">
-                        <img src="./images/icon_resto.png" alt="icon food project" class="w-[30px]">
+
+            <ul class="flex w-full justify-center lg:justify-start">
+                <!--Card 1 Mobile-->
+                <li class="card-projects absolute w-[110px] h-[40%] bg-[#e4e4e4] left-[8%] md:left-[25%] z-20 rounded-[10px] md:w-[150px] md:h-[200px] lg:hidden">
+                    <div class="box-img absolute w-full flex justify-center top-[-10px] md:top-[-20px]">
+                        <img src="./images/icon_resto.png" alt="icon food project" class="w-[30px] md:w-[40px] md:h-[40px]">
                     </div>
 
-                    <a href="https://loick.promo-106.codeur.online/projet_restaurant/" target="_blank"><h3 class="text-[12px] w-full text-center font-[JetBrains] mt-[20px] font-bold underline cursor-pointer">Projet Restaurant</h3></a>
+                    <a href="https://loick.promo-106.codeur.online/projet_restaurant/" target="_blank"><h3 class="text-[12px] w-full text-center font-[JetBrains] mt-[20px] font-bold underline cursor-pointer md:text-[16px]">Sabor del Mundo</h3></a>
                     <div class="box-text w-[90%] flex justify-center ml-[5px]">
-                        <p class="text-[10px] mt-[10px]">Projet réalisé en groupe de 3 pour thème principale les restaurants du monde.</p>   
+                        <p class="text-[10px] mt-[10px] md:text-[14px]">Projet réalisé en groupe de 3 pour thème principale les restaurants du monde.</p>   
                     </div>
                 </li>
 
-                <!--Card 2-->
-                <li class="card-projects absolute w-[110px] h-[40%] bg-[#e4e4e4] z-10 rounded-[10px]">
-                    <div class="box-img absolute w-full flex justify-center top-[-10px]">
-                        <img src="./images/icon_generator.png" alt="icon generator password" class="w-[30px]">
+                <!--Card 2 Mobile-->
+                <li class="card-projects absolute w-[110px] h-[40%] bg-[#e4e4e4] z-10 rounded-[10px] md:w-[150px] md:h-[200px] lg:hidden">
+                    <div class="box-img absolute w-full flex justify-center top-[-10px] md:top-[-20px]">
+                        <img src="./images/icon_generator.png" alt="icon generator password" class="w-[30px] md:w-[40px] md:h-[40px]">
                     </div>
-                    <a href="" target="_blank"><h3 class="text-[12px] w-full text-center font-[JetBrains] mt-[20px] font-bold underline cursor-pointer">Password Generator</h3></a>
+                    <a href="" target="_blank"><h3 class="text-[12px] w-full text-center font-[JetBrains] mt-[20px] font-bold underline cursor-pointer md:text-[16px]">Password Generator</h3></a>
                     <div class="box-text w-[90%] flex justify-center ml-[5px]">
-                        <p class="text-[10px] mt-[10px]">Ce projet a pour but un simple générateur de mot de passe en JavaScript</p>
+                        <p class="text-[10px] mt-[10px] md:text-[14px]">Ce projet a pour but un simple générateur de mot de passe en JavaScript</p>
                     </div>
                 </li>
 
-                <!--Card 3 -->
-                <li class="card-projects absolute w-[110px] h-[40%] bg-[#e4e4e4] right-[8%] z-0 rounded-[10px]">
-                    <div class="box-img absolute w-full flex justify-center top-[-10px]">
-                        <img src="./images/icon_datagramm.png" alt="icon datagramm" class="w-[30px]">
+                <!--Card 3 Mobile -->
+                <li class="card-projects absolute w-[110px] h-[40%] bg-[#e4e4e4] right-[8%] md:right-[25%] z-0 rounded-[10px] md:w-[150px] md:h-[200px] lg:hidden">
+                    <div class="box-img absolute w-full flex justify-center top-[-10px] md:top-[-20px]">
+                        <img src="./images/icon_datagramm.png" alt="icon datagramm" class="w-[30px] md:w-[40px] md:h-[40px]">
                     </div>
-                    <a href="https://loick.promo-106.codeur.online/projet_contactform/" target="_blank"><h3 class="text-[12px] w-full text-center font-[JetBrains] mt-[20px] font-bold underline cursor-pointer">Datagram</h3></a>
+                    <a href="https://loick.promo-106.codeur.online/projet_contactform/" target="_blank"><h3 class="text-[12px] w-full text-center font-[JetBrains] mt-[20px] font-bold underline cursor-pointer md:text-[16px]">Datagram</h3></a>
                     <div class="box-text w-[90%] flex justify-center ml-[5px]">
-                        <p class="text-[10px] mt-[10px]">Ce projet est un simple formulaire de contact sur le thème du célèbre réseau social</p>
+                        <p class="text-[10px] mt-[10px] md:text-[14px]">Ce projet est un simple formulaire de contact sur le thème du célèbre réseau social</p>
                     </div>
                 </li>
+
+                <!--Card 1 Desktop-->
+                <li class="card-desktop hidden lg:block w-[500px] h-[100px] bg-[#e4e4e4] lg:!flex items-center">
+                    <img src="./images/icon_resto.png" alt="icon food project" class="w-[60px] h-[60px] mr-[10px]">
+                    <h3 class="absolute lg:top-[5px] lg:left-[80px] lg:text-[16px] font-[JetBrains] font-bold underline">Sabor del Mundo</h3>
+                    <p class="mt-[10px]">Projet réalisé en groupe de 3 pour thème principale les restaurants du monde</p>
+                </li>
+                <li class="card-desktop absolute hidden lg:block w-[500px] h-[100px] top-[80px] right-[280px] bg-[#e4e4e4] lg:!flex items-center"></li>
+                <!-- <li class="card-desktop hidden lg:block"></li> -->
             </ul>
         </div>
         <!-- /Containers projects-->
