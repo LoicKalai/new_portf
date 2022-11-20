@@ -58,10 +58,111 @@ body{
 }
 
 
+/*--------------------------------------------
+/////////////CIRCLE BAR PROGRESS\\\\\\\\\\\\\\
+---------------------------------------------*/
 
+/*1*/
+.circular-progress{
+  background: conic-gradient(#D9534F 3.6deg, #0f0f0f 0deg) ;
+}
+.circular-progress::before{
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #e4e4e4;
+}
+.progress-value{
+  position: relative;
+}
 
-/*Particles Style*/
+/*2*/
+.circular-progress2{
+  background: conic-gradient(#0262B3 3.6deg, #0f0f0f 0deg) ;
+}
+.circular-progress2::before{
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #e4e4e4;
+}
+.progress-value2{
+  position: relative;
+}
 
+/*3*/
+.circular-progress3{
+  background: conic-gradient(#E8B361 3.6deg, #0f0f0f 0deg) ;
+}
+.circular-progress3::before{
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #e4e4e4;
+}
+.progress-value3{
+  position: relative;
+}
+
+/*4*/
+
+.circular-progress4{
+  background: conic-gradient(#34A47B 3.6deg, #0f0f0f 0deg) ;
+}
+.circular-progress4::before{
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #e4e4e4;
+}
+.progress-value4{
+  position: relative;
+}
+
+/*5*/
+
+.circular-progress5{
+  background: conic-gradient(#399CF8 3.6deg, #0f0f0f 0deg) ;
+}
+.circular-progress5::before{
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #e4e4e4;
+}
+.progress-value5{
+  position: relative;
+}
+
+/*6*/
+.circular-progress6{
+  background: conic-gradient(#399CF8 3.6deg, #0f0f0f 0deg) ;
+}
+.circular-progress6::before{
+  content: "";
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background-color: #e4e4e4;
+}
+.progress-value6{
+  position: relative;
+}
+
+/*--------------------------------------------
+/////////////particle js\\\\\\\\\\\\\\
+---------------------------------------------*/
 
 canvas{
   display: block;
