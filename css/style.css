@@ -78,6 +78,35 @@ body{
   position: relative;
 }
 
+@media all and (min-width: 768px) and (max-width: 1000px){
+
+  .circular-progress::before{
+    width: 75px;
+    height: 75px;
+  }
+
+  .circular-progress2::before{
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .circular-progress3::before{
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .circular-progress4::before{
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .circular-progress5::before{
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .circular-progress6::before{
+    width: 75px !important;
+    height: 75px !important;
+  }
+}
+
 /*2*/
 .circular-progress2{
   background: conic-gradient(#0262B3 3.6deg, #0f0f0f 0deg) ;
@@ -159,6 +188,8 @@ body{
 .progress-value6{
   position: relative;
 }
+
+
 
 /*--------------------------------------------
 /////////////particle js\\\\\\\\\\\\\\
