@@ -78,35 +78,6 @@ body{
   position: relative;
 }
 
-@media all and (min-width: 768px) and (max-width: 1000px){
-
-  .circular-progress::before{
-    width: 75px;
-    height: 75px;
-  }
-
-  .circular-progress2::before{
-    width: 75px !important;
-    height: 75px !important;
-  }
-  .circular-progress3::before{
-    width: 75px !important;
-    height: 75px !important;
-  }
-  .circular-progress4::before{
-    width: 75px !important;
-    height: 75px !important;
-  }
-  .circular-progress5::before{
-    width: 75px !important;
-    height: 75px !important;
-  }
-  .circular-progress6::before{
-    width: 75px !important;
-    height: 75px !important;
-  }
-}
-
 /*2*/
 .circular-progress2{
   background: conic-gradient(#0262B3 3.6deg, #0f0f0f 0deg) ;
@@ -188,6 +159,216 @@ body{
 .progress-value6{
   position: relative;
 }
+
+@media all and (min-width: 768px) and (max-width: 1000px){
+
+  .circular-progress::before{
+    width: 75px;
+    height: 75px;
+  }
+
+  .circular-progress2::before{
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .circular-progress3::before{
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .circular-progress4::before{
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .circular-progress5::before{
+    width: 75px !important;
+    height: 75px !important;
+  }
+  .circular-progress6::before{
+    width: 75px !important;
+    height: 75px !important;
+  }
+}
+
+/*--------------------------------------------
+/////////////DESKTOP BAR PROGRESS\\\\\\\\\\\\\\
+---------------------------------------------*/
+
+
+.skill{
+  position: relative;
+}
+.skill-title{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Inter';
+}
+
+.skill-bar{
+  width: 100%;
+  height: 30px;
+  background-color: #e4e4e4;
+  position: absolute;
+  -webkit-box-shadow: inset -7px 7px 20px 0px rgba(15,15,15,0.56);
+  -moz-box-shadow: inset -7px 7px 20px 0px rgba(15,15,15,0.56);
+  box-shadow: inset -7px 7px 20px 0px rgba(15,15,15,0.56);
+
+
+}
+
+.skill-fill{
+  position: relative;
+  background-color: #D9534F;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 10px;
+  box-shadow: 1px 1px 5px 0px #0f0f0f;
+}
+
+.css3 .skill-fill{
+  position: relative;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 10px;
+  box-shadow: 1px 1px 5px 0px #0f0f0f;
+}
+
+.js .skill-fill{
+  position: relative;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 10px;
+  box-shadow: 1px 1px 5px 0px #0f0f0f;
+}
+
+.fig .skill-fill{
+  position: relative;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 10px;
+  box-shadow: 1px 1px 5px 0px #0f0f0f;
+}
+.php .skill-fill{
+  position: relative;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 10px;
+  box-shadow: 1px 1px 5px 0px #0f0f0f;
+}
+
+.sql .skill-fill{
+  position: relative;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 10px;
+  box-shadow: 1px 1px 5px 0px #0f0f0f;
+}
+
+
+.skill-percent{
+  font-size: 20px;
+  font-family: 'JetBrains';
+}
+
+.html{
+  animation: html 2s;
+  width: 95%;
+}
+.css3{
+  animation: css 2s;
+  width: 95%;
+}
+
+.javascr{
+  animation: js 2s;
+  width: 80%;
+}
+.fig{
+  animation: fig 2s;
+  width: 80%;
+}
+
+.php{
+  animation: php 2s;
+  width: 70%;
+}
+
+.sql{
+  animation: sql 2s;
+  width: 70%;
+}
+
+@keyframes html{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 95%;
+  }
+}
+
+@keyframes css{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 95%;
+  }
+}
+
+@keyframes js{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes fig{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes php{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
+@keyframes sql{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 70%;
+  }
+}
+
 
 
 
