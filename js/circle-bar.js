@@ -131,3 +131,14 @@ let progress6 = setInterval(() => {
         clearInterval(progress6);
     }
 }, speed6);
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,325 @@
+    <section class="w-[100%] h-full bg-[#0f0f0f]" id="projets">
+
+        <h2 class="title_transparent absolute text-[30px] md:text-[60px] lg:text-[92px] uppercase font-[InterBold] w-full text-center mt-[130px] lg:mt-[100px] text-[#e4e4e4] opacity-[.018]">réalisations</h2>
+
+        <h3 class="title_presentation absolute uppercase w-screen text-center font-[Inter] text-[#e4e4e4] md:text-[20px] md:mt-[180px] lg:text-[40px] mt-[155px] ">projets</h3>
+
+        <!--Placer le soulignement-->
+        <div class="place_underline absolute w-full flex justify-center bottom-[-885px] md:bottom-[-912px] lg:bottom-[-945px] xl:bottom-[-955px] 2xl:bottom-[-1030px] lg:ml-[2px] z-10">
+            <div class="underline-h3 w-[60px] lg:w-[80px] z-30 border-b-[2px] lg:border-b-[3px] border-b-[#e4e4e4]"></div>
+        </div>
+
+        <!--Container projects-->
+        <div class="container-projects absolute w-full h-[58%] top-[1600px] lg:h-[40%] xl:h-[50%] lg:flex lg:mt-[95px] xl:mt-[130px] 2xl:mt-[300px]">
+            <div class="pres-projects w-full flex justify-center lg:items-center">
+                <p class="text-[#e4e4e4] font-[JetBrains] text-[12px] w-[80%] leading-[1.5rem] mb-[60px] md:mb-[80px] md:mt-[30px] lg:mb-0 lg:text-[16px] xl:text-[20px] lg:leading-[2em] lg:m-0">Les projets présentés ont été réalisés durant ma formation, je travail actuellement sur de toutes nouvelles technologies pour élargir mes compétences.</p>
+            </div>
+
+            <ul class="flex w-full justify-center lg:justify-start xl:justify-start">
+
+                <!--------------------------------------------------------- Cards MOBILE ---------------------------------------------->
+                <!--Card 1 Mobile-->
+                <li class="card-projects absolute w-[110px] h-[40%] bg-[#e4e4e4] left-[8%] md:left-[25%] z-20 rounded-[10px] md:w-[150px] md:h-[200px] lg:hidden">
+                    <div class="box-img absolute w-full flex justify-center top-[-10px] md:top-[-20px]">
+                        <img src="./images/icon_resto.png" alt="icon food project" class="w-[30px] md:w-[40px] md:h-[40px]">
+                    </div>
+
+                    <a href="https://loick.promo-106.codeur.online/projet_restaurant/" target="_blank"><h3 class="text-[12px] w-full text-center font-[JetBrains] mt-[20px] font-bold underline cursor-pointer md:text-[16px]">Sabor del Mundo</h3></a>
+                    <div class="box-text w-[90%] flex justify-center ml-[5px]">
+                        <p class="text-[10px] mt-[10px] md:text-[14px]">Projet réalisé en groupe de 3 pour thème principale les restaurants du monde.</p>   
+                    </div>
+                </li>
+
+                <!--Card 2 Mobile-->
+                <li class="card-projects absolute w-[110px] h-[40%] bg-[#e4e4e4] z-10 rounded-[10px] md:w-[150px] md:h-[200px] lg:hidden">
+                    <div class="box-img absolute w-full flex justify-center top-[-10px] md:top-[-20px]">
+                        <img src="./images/icon_generator.png" alt="icon generator password" class="w-[30px] md:w-[40px] md:h-[40px]">
+                    </div>
+                    <a href="" target="_blank"><h3 class="text-[12px] w-full text-center font-[JetBrains] mt-[20px] font-bold underline cursor-pointer md:text-[16px]">Password Generator</h3></a>
+                    <div class="box-text w-[90%] flex justify-center ml-[5px]">
+                        <p class="text-[10px] mt-[10px] md:text-[14px]">Ce projet a pour but un simple générateur de mot de passe en JavaScript</p>
+                    </div>
+                </li>
+
+                <!--Card 3 Mobile -->
+                <li class="card-projects absolute w-[110px] h-[40%] bg-[#e4e4e4] right-[8%] md:right-[25%] z-0 rounded-[10px] md:w-[150px] md:h-[200px] lg:hidden">
+                    <div class="box-img absolute w-full flex justify-center top-[-10px] md:top-[-20px]">
+                        <img src="./images/icon_datagramm.png" alt="icon datagramm" class="w-[30px] md:w-[40px] md:h-[40px]">
+                    </div>
+                    <a href="https://loick.promo-106.codeur.online/projet_contactform/" target="_blank"><h3 class="text-[12px] w-full text-center font-[JetBrains] mt-[20px] font-bold underline cursor-pointer md:text-[16px]">Datagram</h3></a>
+                    <div class="box-text w-[90%] flex justify-center ml-[5px]">
+                        <p class="text-[10px] mt-[10px] md:text-[14px]">Ce projet est un simple formulaire de contact sur le thème du célèbre réseau social</p>
+                    </div>
+                </li>
+                <!---------------------------------------------------------- /Cards MOBILE----------------------------------------------->
+
+
+
+                <!---------------------------------------------------------- Cards DESKTOP----------------------------------------------->
+                
+                <!--Card 1 Desktop-->
+                <li class="card-desktop hidden lg:block lg:w-[400px] lg:h-[100px] xl:w-[500px] xl:h-[100px] bg-[#e4e4e4] lg:!flex items-center hover:z-20 top-[11px]">
+                    <img src="./images/icon_resto.png" alt="icon food project" class="w-[60px] h-[60px] mr-[10px]">
+                    <h3 class="absolute lg:top-[5px] lg:left-[80px] lg:text-[16px] font-[JetBrains] font-bold underline">Sabor del Mundo</h3>
+                    <p class="mt-[10px]">Projet réalisé en groupe de 3 pour thème principale les restaurants du monde</p>
+                </li>
+
+                <!--Card 2 Desktop-->
+                <li class="card-desktop absolute hidden lg:block xl:w-[500px] xl:h-[100px] lg:w-[400px] lg:h-[100px] top-[108px] lg:right-[110px] xl:right-[210px] 2xl:right-[280px] bg-[#e4e4e4] lg:!flex items-center hover:z-10">
+                    <img src="./images/icon_generator.png" alt="icon password generator" class="w-[60px] h-[60px] mr-[10px]">
+                    <h3 class="absolute lg:top-[5px] lg:left-[80px] lg:text-[16px] font-[JetBrains] font-bold underline">Password Generator</h3>
+                    <p class="mt-[10px]">Ce projet a pour but un simple générateur de mot de passe en JavaScript.</p>
+                </li>
+                <!--Card 3 Desktop-->
+                <li class="card-desktop absolute hidden lg:block xl:w-[500px] xl:h-[100px] lg:w-[400px] lg:h-[100px] top-[205px] xl:right-[200px] 2xl:right-[270px] lg:right-[110px] bg-[#e4e4e4] lg:!flex items-center hover:z-0">
+                    <img src="./images/icon_datagramm.png" alt="icon datagramm" class="w-[60px] h-[60px] mr-[10px]">
+                    <h3 class="absolute lg:top-[5px] lg:left-[80px] lg:text-[16px] font-[JetBrains] font-bold underline">Datagram</h3>
+                    <p class="mt-[10px]">Ce projet est un formulaire de contact sur le thème du célèbre réseau social.</p>
+                </li>
+                <!----------------------------------------------------------/Cards DESKTOP----------------------------------------------->
+            </ul>
+        </div>
+        <!-- /Containers projects-->
+    </section>
+    <!-- /Section Projects-->
+
+    <!--Section Skills-->
+    <section class="skills w-[100%] h-full bg-[#0f0f0f]" id="skills">
+
+        <h2 class="title_transparent absolute text-[30px] md:text-[60px] lg:text-[92px] uppercase font-[InterBold] w-full text-center mt-[130px] lg:mt-[100px] text-[#e4e4e4] opacity-[.018]">skills</h2>
+
+        <h3 class="title_presentation absolute uppercase w-screen text-center font-[Inter] text-[#e4e4e4] md:text-[20px] md:mt-[185px] lg:text-[40px] mt-[157px] ">compétences</h3>
+
+        <!--Placer le soulignement-->
+        <div class="place_underline absolute w-full flex justify-center bottom-[-1578px] md:bottom-[-1615px] lg:bottom-[-1640px] 2xl:bottom-[-1815px] lg:ml-[2px] z-10">
+            <div class="underline-h3 w-[60px] lg:w-[80px] z-30 border-b-[2px] lg:border-b-[3px] border-b-[#e4e4e4]"></div>
+        </div>
+
+        <div class="place-contains w-full flex justify-center">
+
+            <img src="./images/dark_desk.jpg" class="hidden absolute lg:block lg:w-[280px] lg:left-[15px] lg:top-[2400px] xl:top-[2410px] 2xl:top-[2720px] " alt="desktop image">
+            <!--Bloc container compétences-->
+            <div class="contains-competences w-[90%] h-[50%] absolute bottom-[-1940px] md:bottom-[-1985px] lg:bottom-[-2050px] lg:w-[55%] lg:left-[325px] lg:bottom-[-2020px] xl:bottom-[-2030px] 2xl:bottom-[-2280px]">
+
+                <!---------------------Desktop Version-------------------->
+                <div class="place-progress h-full w-full flex flex-col justify-center lg:!block !hidden">
+                    
+                    <!--HTML-->
+                    <div class="skill mb-[25px] xl:mb-[30px]">
+                        <div class="skill-bar"></div>
+                        <div class="html skill-fill">
+                            <div class="place-icontitle flex h-full items-center">
+                                <i class="fa-brands fa-html5 text-[25px]"></i>
+                                <div class="skill-title uppercase pl-[5px]">html5</div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                    </div>
+
+                    <!--CSS-->
+                    <div class="skill mb-[25px] xl:mb-[30px]">
+                        <div class="skill-bar"></div>
+                        <div class="css3 skill-fill !bg-[#0262B3]">
+                            <div class="place-icontitle flex h-full items-center">
+                                <i class="fa-brands fa-css3-alt text-[25px]"></i>
+                                <div class="skill-title uppercase pl-[5px]">CSS3</div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                    </div>
+
+                    <!--JS-->
+                    <div class="skill mb-[25px] xl:mb-[30px]">
+                        <div class="skill-bar"></div>
+                        <div class="javascr skill-fill !bg-[#E8B361]">
+                            <div class="place-icontitle flex h-full items-center">
+                                <i class="fa-brands fa-js text-[25px]"></i>
+                                <div class="skill-title uppercase pl-[5px]">JS</div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+
+                    <!--Figma-->
+                    <div class="skill mb-[25px] xl:mb-[30px]">
+                        <div class="skill-bar"></div>
+                        <div class="fig skill-fill !bg-[#34A47B]">
+                            <div class="place-icontitle flex h-full items-center">
+                                <i class="fa-brands fa-figma text-[25px] font-bold"></i>
+                                <div class="skill-title uppercase pl-[5px]">figma</div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+
+                    <!--Php-->
+                    <div class="skill mb-[25px] xl:mb-[30px]">
+                        <div class="skill-bar"></div>
+                        <div class="php skill-fill !bg-[#399CF8]">
+                            <div class="place-icontitle flex h-full items-center">
+                                <i class="fa-brands fa-php text-[25px] font-bold"></i>
+                                <div class="skill-title uppercase pl-[5px]">php</div>
+                            </div>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                    </div>
+
+                    <!--SQL-->
+                    <div class="skill">
+                        <div class="skill-bar"></div>
+                        <div class="sql skill-fill !bg-[#F49135]">
+                            <div class="place-icontitle flex h-full items-center">
+                                <i class="fa-solid fa-database text-[25px]"></i>
+                                <div class="skill-title uppercase pl-[5px]">SQL</div>
+                            </div>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!---------------------Mobile Version--------------------->
+
+                <!--Ligne Progress Bar 1-->
+                <div class="row-1 flex items-center justify-between w-full h-[50%]  md:justify-evenly lg:hidden"> 
+
+                    <!--HTML-->
+                    <div class="contain-progress flex flex-col items-center justify-center">
+
+                        <div class="circular-progress relative w-[65px] h-[65px] md:w-[85px] md:h-[85px] rounded-full flex justify-center items-center">
+                            <i class="fa-brands fa-html5 absolute top-[10px]"></i>
+                            <span class="progress-value mt-[15px] font-[JetBrains]">0%</span>
+                        </div>
+                        
+                        <span class="title-progress font-[JetBrains] uppercase text-[12px] mt-[5px] text-[#e4e4e4]">html</span>
+                    </div>
+
+                    <!--CSS-->
+
+                    <div class="contain-progress flex flex-col items-center justify-center">
+
+                        <div class="circular-progress2 relative w-[65px] h-[65px] md:w-[85px] md:h-[85px] rounded-full flex justify-center items-center">
+                            <i class="fa-brands fa-css3-alt absolute top-[10px]"></i>
+                            <span class="progress-value2 mt-[15px] font-[JetBrains]">0%</span>
+                        </div>
+                        
+                        <span class="title-progress font-[JetBrains] uppercase text-[12px] mt-[5px] text-[#e4e4e4]">css</span>
+                    </div>
+
+                    <!--JS-->
+                    <div class="contain-progress flex flex-col items-center justify-center">
+
+                        <div class="circular-progress3 relative w-[65px] h-[65px] md:w-[85px] md:h-[85px] rounded-full flex justify-center items-center">
+
+                            <i class="fa-brands fa-js absolute top-[10px]"></i>
+                            
+                            <span class="progress-value3 mt-[15px] font-[JetBrains]">0%</span>
+                        </div>
+                        
+                        <span class="title-progress font-[JetBrains] uppercase text-[12px] mt-[5px] text-[#e4e4e4]">javascript</span>
+                    </div>
+                </div>
+
+                <!--Ligne Progress Bar 2-->
+                <div class="row-2 flex items-center justify-between w-full h-[50%] md:justify-evenly lg:hidden"> 
+
+                    <!--Figma-->
+                    <div class="contain-progress flex flex-col items-center justify-center">
+
+                        <div class="circular-progress4 relative w-[65px] h-[65px] md:w-[85px] md:h-[85px] rounded-full flex justify-center items-center">
+
+                            <i class="fa-brands fa-figma absolute top-[10px] font-bold"></i>
+                            
+                            <span class="progress-value4 mt-[15px] font-[JetBrains]">0%</span>
+                        </div>
+                        
+                        <span class="title-progress font-[JetBrains] uppercase text-[12px] mt-[5px] text-[#e4e4e4]">figma</span>
+                    </div>
+
+                    <!--Php-->
+
+                    <div class="contain-progress flex flex-col items-center justify-center">
+
+                        <div class="circular-progress5 relative w-[65px] h-[65px] md:w-[85px] md:h-[85px] rounded-full flex justify-center items-center">
+
+                            <i class="fa-brands fa-php absolute top-[10px] font-bold"></i>
+                            
+                            <span class="progress-value5 mt-[15px] font-[JetBrains]">0%</span>
+                        </div>
+                        
+                        <span class="title-progress font-[JetBrains] uppercase text-[12px] mt-[5px] text-[#e4e4e4]">php</span>
+                    </div>
+
+                    <!--Mysql-->
+
+                    <div class="contain-progress flex flex-col items-center justify-center">
+
+                        <div class="circular-progress6 relative w-[65px] h-[65px] md:w-[85px] md:h-[85px] rounded-full flex justify-center items-center">
+
+                            <i class="fa-solid fa-database absolute top-[10px]"></i>
+                            
+                            <span class="progress-value6 mt-[15px] font-[JetBrains]">0%</span>
+                        </div>
+                        
+                        <span class="title-progress font-[JetBrains] uppercase text-[12px] mt-[5px] text-[#e4e4e4]">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Section Skills-->
+
+    <!--Section Contact-->
+    <section class="contact w-[100%] h-full bg-[#0f0f0f]" id="contact">
+        <h2 class="title_transparent absolute text-[30px] md:text-[60px] lg:text-[92px] uppercase font-[InterBold] w-full text-center mt-[130px] lg:mt-[100px] text-[#e4e4e4] opacity-[.018]">écrivez-moi</h2>
+
+        <h3 class="title_presentation absolute uppercase w-screen text-center font-[Inter] text-[#e4e4e4] md:text-[20px] md:mt-[185px] lg:text-[40px] mt-[157px] ">contact</h3>
+
+        <!--Placer le soulignement-->
+        <div class="place_underline absolute w-full flex justify-center bottom-[-2273px] md:bottom-[-2305px] lg:bottom-[-2340px] 2xl:bottom-[-2600px] lg:ml-[2px] z-10 2xl:ml-[15px]">
+            <div class="underline-h3 w-[60px] lg:w-[80px] z-30 border-b-[2px] lg:border-b-[3px] border-b-[#e4e4e4]"></div>
+        </div>
+
+        <!--Contain Contact-->
+        <div class="wrap-contact h-full w-full flex items-center">
+            <div class="contain-form w-full h-[50%] mt-[100px] md:h-[45%] md:mt-[140px] lg:w-[75%] lg:mt-[180px] lg:ml-[80px] xl:w-[80%] xl:mt-[210px]">
+
+                <form action="mail.php" class="h-full flex flex-col pt-[60px]">
+                    <!--Input Nom-->
+                    <div class="bloc-nom flex items-end mb-[10px] md:mb-[20px] pl-[20px] 2xl:mb-[45px]">
+                        <i class="fa-regular fa-user w-[16px] h-[16px] text-[#e4e4e4] mr-[10px] lg:text-[20px]"></i>
+                        <label for="name"></label>
+                        <input type="text" name="name" id="name" class="bg-transparent w-[45%] border-b-[2px] border-[#e4e4e4] outline-none text-[14px] text-[#e4e4e4] md:text-[16px]" placeholder="Nom">
+                    </div>
+
+                    <!--Input Mail-->
+                    <div class="bloc-mail flex items-end md:mb-[20px] pl-[20px]">
+                        <i class="fa-regular fa-at text-[#e4e4e4] mr-[5px] lg:text-[20px]"></i>
+                        <label for="mail"></label>
+                        <input type="text" name="mail" id="mail" class="bg-transparent w-[45%] border-b-[2px] border-[#e4e4e4] outline-none text-[14px] text-[#e4e4e4] md:text-[16px]" placeholder="Mail">
+                    </div>
+
+
+                    <!--Input Message-->
+                    <div class="bloc-message flex items-end pl-[20px]">
+                        <i class="fa-regular fa-envelope text-[#e4e4e4] mr-[10px] lg:text-[20px]"></i>
+                        <label for="" class=""></label>
+                        <div class="place-inp-text h-[60px] w-[80%] flex items-end">
+                            <input name="message" class="bg-transparent w-[100%] border-b-[2px] border-[#e4e4e4] outline-none text-[14px] text-[#e4e4e4] md:text-[16px]" placeholder="Message">
+                        </div>
+                        
+                    </div>
+
+                    <!--Btn SEND-->
+                    <div class="place-btn-send w-full flex justify-center lg:ml-[70px] xl:ml-[95px]">
+                        <input type="submit" value="ENVOYER" class="btn-send border-[2px] mt-[80px] md:mt-[55px] w-[35%] h-[35px] text-[#e4e4e4] font-[Inter] text-[12px] md:text-[14px] rounded-[5px] md:w-[15%] lg:hover:bg-[#e4e4e4] lg:hover:text-[#0f0f0f] cursor-pointer">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+       
+            <footer class="footer text-center w-full h-[34px] text-[12px] bg-[#0f0f0f] text-[#e4e4e4] border-t-[1px] border-t-[#e4e4e4] flex items-center justify-center">
+                <p>&copy; 2022 - Loïc Kalaidjoglou - Tous droits réservés.</p>
+            </footer>
+    </section>
+    <!-- /Section Contact-->
