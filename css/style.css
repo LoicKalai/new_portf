@@ -4,23 +4,35 @@
     
 }
 html{
-  width: 99.9vw;
+  width: 100vw;
   height: 100vh;
+  scroll-behavior: smooth;
 
 }
 body{
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  background-color: #0f0f0f;
 
 }
+.btnburger .icon_burger2{
+  z-index: 20;
+}
+.icon_burger2{
+  width: 20px;
+  height: 2px;
+  background-color: #e4e4e4;
+}
+.icon_burger2:nth-child(2){
+  width: 15px;
+}
+
 
 .card-projects{
   transform: matrix(1, 0.12, -0.08, 0.99, 0, 0);
 
 }
-
-
 
 
 @font-face {
@@ -45,17 +57,17 @@ body{
   right: 0vw;
 }
 .cross{
-  width: 24px;
-  height: 24px;
+  font-size: 30px;
   position: absolute;
   top: 11px;
-
+  color:#0f0f0f;
 }
 .cross2{
-  width: 20px;
-  height: 20px;
-  position: absolute;
+  color: #e4e4e4;
+  font-size: 25px;
+  z-index: 20;
 }
+
 
 
 /*--------------------------------------------
@@ -189,6 +201,7 @@ body{
   }
 }
 
+
 /*--------------------------------------------
 /////////////DESKTOP BAR PROGRESS\\\\\\\\\\\\\\
 ---------------------------------------------*/
@@ -315,6 +328,7 @@ body{
   width: 70%;
 }
 
+
 @keyframes html{
   0%{
     width: 0%;
@@ -389,7 +403,7 @@ canvas{
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: 100% 100%; 
-} 
+}
 
 
 
@@ -400,22 +414,43 @@ canvas{
     right: -10vw;
   }
   .cross2{
-    display: none;
+    display: none !important;
+  }
+
+  .icon_burger2{
+    width: 25px;
+  }
+  .icon_burger2:nth-child(2){
+    width: 20px;
+  }
+  .light-theme .icon_burger2{
+    background-color: #0f0f0f;
   }
 }
 
 
-/* @media screen and (min-width: 1024px) {
-  .card-projects{
-    transition: transform .1s;
-  }
+@media all and (min-width: 1279px) and (max-width: 1420px){
 
-  .card-projects:hover{
-    -ms-transform: scale(1.5); 
-    -webkit-transform: scale(1.5); 
-    transform: scale(1.5);
-  }  
-} */
+  .img-comp{
+    left: -8em;
+  }
+  
+}
+
+@media all and (min-width: 290px) and (max-width: 1023px){
+  .light-theme .icon_burger2{
+    background-color: #0f0f0f!important;
+  }
+  .cross{
+    display: none !important;
+  }
+}
+
+
+
+/*--------------------------------------------
+/////////////card projects Mobile\\\\\\\\\\\\\\
+---------------------------------------------*/
 
 @media all and (min-width: 320px) and (max-width: 768px){
 
@@ -435,18 +470,11 @@ canvas{
   .card-projects:nth-child(3):hover{
     z-index: 20;
   }
-  
+
+
 }
 
-@media all and (min-width: 375px) and (max-width: 500px){
 
-  .card-projects:nth-child(1){
-    left:20%
-  }
-  .card-projects:nth-child(3){
-    right: 20%;
-  }
-}
 
 @media all and (min-width: 1024px) and (max-width: 2500px){
   .card-desktop{
@@ -465,11 +493,138 @@ canvas{
     transform: translateY(30px)  rotateY(-35deg) rotateX(15deg) scale(1.2);
     opacity: 1;
   }
+}
+
+
+/*--------------------------------------------
+/////////////DARK / LIGHT\\\\\\\\\\\\\\
+                MODE
+---------------------------------------------*/
+
+:root {
+  --light: #e4e4e4;
+  --dark: #0f0f0f;
+}
+
+body.light-theme{
+  background-color:  var(--light);
+}
+body.light-theme h3{
+  color: var(--dark);
+}
+body.light-theme h2{
+  color:var(--dark);
+  opacity: 0.07;
+}
+
+.light-theme .underline-h3{
+  border-bottom: var(--dark) solid;
+}
+.light-theme p{
+  color: var(--dark);
+}
+
+@media all and (min-width: 320px) and (max-width: 1023px){
+  .light-theme .underline-h3{
+    border-bottom: var(--dark) 2px solid;
+  }
 
 
 }
 
+.light-theme .fa-regular{
+  color: var(--dark);
+}
+.light-theme #contact input[type=text]{
+  border-bottom: var(--dark) 1px solid;
+}
+.light-theme #contact input[type=submit]{
+  border: var(--dark) 1px solid;
+}
+.light-theme #contact input[value]{
+  color: var(--dark);
+  font-weight: bold;
+}
 
+.light-theme #contact input[value]:hover{
+  color: var(--light);
+  font-weight: bold;
+  background-color: var(--dark);
+}
+
+.light-theme footer{
+  background-color: var(--light);
+  border-top: 1px solid var(--dark);
+}
+
+
+.light-theme #particles-js{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #e4e4e4;
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: 100% 100%;
+}
+
+.light-theme .contain-home h1 #some-id{
+  color: #0f0f0f !important;
+}
+
+.light-theme .card-projects{
+  background-color: #0f0f0f;
+}
+.light-theme .card-projects p{
+  color: #e4e4e4;
+}
+.light-theme .card-projects h4{
+  color: #e4e4e4;
+}
+
+.light-theme .card-desktop{
+  background-color: #0f0f0f;
+}
+
+.light-theme .card-desktop p{
+  color: #e4e4e4;
+}
+.light-theme .card-desktop h4{
+  color: #e4e4e4;
+}
+
+.light-theme .sidebar ul{
+  background-color: #0f0f0f;
+  color: #e4e4e4;
+}
+.light-theme .icon_network_desk .fa-brands{
+  color: #e4e4e4;
+}
+.light-theme .cross{
+  color: #e4e4e4;
+}
+
+.light-theme .contain-btn .dark-light{
+  background-color: #0f0f0f;
+}
+.light-theme .contain-btn .btn-contact{
+  background-color: #0f0f0f;
+}
+.light-theme .icon_burger{
+  background-color: #0f0f0f;
+}
+.light-theme .categ:hover{
+  text-decoration:underline #e4e4e4;
   
+}
 
+.light-theme .logolk{
+  display: none;
+}
+.logolk2{
+  display: none;
+}
+.light-theme .logolk2{
+  display: block;
+}
 
